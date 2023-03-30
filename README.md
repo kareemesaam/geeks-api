@@ -9,7 +9,11 @@ git clone git@github.com:3omarbadr/geeks-jo.git
 composer install
 cp .env.example .env
 ```
-
+Create App Key 
+```
+ php artisan key:generate  
+ 
+```
 Then create the necessary database.
 
 ```
