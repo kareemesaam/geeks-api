@@ -8,6 +8,7 @@ First clone this repository, install the dependencies, and setup your .env file.
 git clone https://github.com/kareemesaam/geeks-api.git
 composer install
 cp .env.example .env
+php artisan key:generate
 ```
 
 Then create the necessary database.
@@ -32,13 +33,6 @@ Then Run Passport Command
 
 ```
 php artisan passport:install
-```
-
-Login credentials
-
-```
-email : admin@geeks.io
-password: Pa$$w0rd
 ```
 
 API That gets countries's cities by country id 
