@@ -34,8 +34,6 @@ Then Run Passport Command
 php artisan passport:install
 ```
 
-```
-
 Login credentials
 
 ```
